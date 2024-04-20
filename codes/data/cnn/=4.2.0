@@ -1,0 +1,33 @@
+Collecting nbformat
+  Obtaining dependency information for nbformat from https://files.pythonhosted.org/packages/a9/82/0340caa499416c78e5d8f5f05947ae4bc3cba53c9f038ab6e9ed964e22f1/nbformat-5.10.4-py3-none-any.whl.metadata
+  Downloading nbformat-5.10.4-py3-none-any.whl.metadata (3.6 kB)
+Collecting fastjsonschema>=2.15 (from nbformat)
+  Obtaining dependency information for fastjsonschema>=2.15 from https://files.pythonhosted.org/packages/9c/b9/79691036d4a8f9857e74d1728b23f34f583b81350a27492edda58d5604e1/fastjsonschema-2.19.1-py3-none-any.whl.metadata
+  Downloading fastjsonschema-2.19.1-py3-none-any.whl.metadata (2.1 kB)
+Collecting jsonschema>=2.6 (from nbformat)
+  Obtaining dependency information for jsonschema>=2.6 from https://files.pythonhosted.org/packages/39/9d/b035d024c62c85f2e2d4806a59ca7b8520307f34e0932fbc8cc75fe7b2d9/jsonschema-4.21.1-py3-none-any.whl.metadata
+  Downloading jsonschema-4.21.1-py3-none-any.whl.metadata (7.8 kB)
+Requirement already satisfied: jupyter-core!=5.0.*,>=4.12 in /Users/weikuo/Documents/github-repositories/web-scrape-newswebsites/venv/lib/python3.12/site-packages (from nbformat) (5.7.2)
+Requirement already satisfied: traitlets>=5.1 in /Users/weikuo/Documents/github-repositories/web-scrape-newswebsites/venv/lib/python3.12/site-packages (from nbformat) (5.14.2)
+Requirement already satisfied: attrs>=22.2.0 in /Users/weikuo/Documents/github-repositories/web-scrape-newswebsites/venv/lib/python3.12/site-packages (from jsonschema>=2.6->nbformat) (23.2.0)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=2.6->nbformat)
+  Obtaining dependency information for jsonschema-specifications>=2023.03.6 from https://files.pythonhosted.org/packages/ee/07/44bd408781594c4d0a027666ef27fab1e441b109dc3b76b4f836f8fd04fe/jsonschema_specifications-2023.12.1-py3-none-any.whl.metadata
+  Downloading jsonschema_specifications-2023.12.1-py3-none-any.whl.metadata (3.0 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=2.6->nbformat)
+  Obtaining dependency information for referencing>=0.28.4 from https://files.pythonhosted.org/packages/42/8e/ae1de7b12223986e949bdb886c004de7c304b6fa94de5b87c926c1099656/referencing-0.34.0-py3-none-any.whl.metadata
+  Downloading referencing-0.34.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.7.1 (from jsonschema>=2.6->nbformat)
+  Obtaining dependency information for rpds-py>=0.7.1 from https://files.pythonhosted.org/packages/7a/58/9bfc53b266df92f0515e72fd16e4890dc6b56fc3bfc216b3a2a729c866b5/rpds_py-0.18.0-cp312-cp312-macosx_11_0_arm64.whl.metadata
+  Downloading rpds_py-0.18.0-cp312-cp312-macosx_11_0_arm64.whl.metadata (4.1 kB)
+Requirement already satisfied: platformdirs>=2.5 in /Users/weikuo/Documents/github-repositories/web-scrape-newswebsites/venv/lib/python3.12/site-packages (from jupyter-core!=5.0.*,>=4.12->nbformat) (4.2.0)
+Downloading nbformat-5.10.4-py3-none-any.whl (78 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.5/78.5 kB 3.5 MB/s eta 0:00:00
+Using cached fastjsonschema-2.19.1-py3-none-any.whl (23 kB)
+Downloading jsonschema-4.21.1-py3-none-any.whl (85 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 85.5/85.5 kB 6.3 MB/s eta 0:00:00
+Using cached jsonschema_specifications-2023.12.1-py3-none-any.whl (18 kB)
+Downloading referencing-0.34.0-py3-none-any.whl (26 kB)
+Downloading rpds_py-0.18.0-cp312-cp312-macosx_11_0_arm64.whl (332 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 333.0/333.0 kB 12.1 MB/s eta 0:00:00
+Installing collected packages: fastjsonschema, rpds-py, referencing, jsonschema-specifications, jsonschema, nbformat
+Successfully installed fastjsonschema-2.19.1 jsonschema-4.21.1 jsonschema-specifications-2023.12.1 nbformat-5.10.4 referencing-0.34.0 rpds-py-0.18.0

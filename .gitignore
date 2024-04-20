@@ -1,0 +1,9 @@
+.DS_Store
+.env
+*.pyc
+settings.json
+
+venv
+chromedriver-mac-arm64
+local_resource
+articles_all
